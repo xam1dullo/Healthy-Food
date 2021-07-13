@@ -1,0 +1,48 @@
+
+.myslider{
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+}
+
+
+.next, .prev{
+  position: absolute;
+  color: #fff;
+  font :bold 20px Arial;
+  cursor: pointer;
+  padding: 5px 15px;
+  color: red;
+}
+.prev{
+  left: 20%;
+}
+.next{
+  right: 20%;
+}
+.next:hover, .prev:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.fade{
+  animation: anm 2.5s ease ;
+}
+
+@keyframes anm{
+
+  from{
+    opacity:0.1;
+    width: 10%;
+
+  }
+  to{
+    opacity: 1;
+    width: 50%;
+  }
+}
+.carusel-section{
+  position: relative;
+}
+

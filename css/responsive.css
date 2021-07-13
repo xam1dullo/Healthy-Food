@@ -1,0 +1,665 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+  */
+
+  @media (max-width: 1024px) {
+   header{
+      background-image: none;
+   }
+   .navbar-toggler-menu{
+      display: none;
+   }
+   .button {
+      display: none;
+   }
+   .navigation{
+      justify-content: space-between;
+   }
+   .mini-and-descktop a{
+      display: block;
+   }
+   .hamburger{
+      display: block;
+   }
+   .mobile-app{
+      display: none;
+   }
+   .food-network{
+    display: block;
+    text-align: center;
+    justify-content: center;
+ }
+ .network-dicription{
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+   padding: 10px;
+   padding-top: 100px;
+}
+.network-dicription h4{
+   text-align: center;
+   justify-content: center;
+   margin: 10px auto;
+}
+.contact-list{
+   width: 100%;
+   padding: 115px 105px;
+
+}
+
+.app-iso-link{
+   justify-content: space-around;
+}
+.features{
+   background-image: none;
+}
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   .container{
+      width: 1050px;
+      margin: 30px auto ;
+   }
+   .contact-list h3{
+      padding: 0 20px;
+      margin: 0 auto;
+   }
+   .network-dicription{
+      padding-left: 20px
+   }
+   .mobile-app img{
+      position: absolute;
+      left: 700px;
+      top: -380px;
+      border-radius: 50px;
+   }
+   .trinity-1,.trinity-2,.trinity-3{
+    background-position: 112px 33px;    
+ }
+ .content-images{
+   padding-left: 10px;
+}
+.about-us .about-us-content{
+   justify-content: flex-end;
+   width: 50%;
+   padding: 58px 50px;
+}
+.food-menu{
+   grid-row-gap:25px;
+   justify-content: space-around;
+} 
+.food-box{
+   width: 28%;
+}
+.food-network{
+   width: 100% 
+}
+.mobile-app img{
+   position: absolute;
+   left: 550px;
+   top: -450px;
+   border-radius: 50px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   .container{
+      width:896px;
+      margin: 30px auto ;
+   }
+   .contact-list h3{
+      padding: 0 20px;
+      margin: 0;
+   }
+   .network-dicription{
+      padding-left: 20px
+   }
+   .mobile-app img{
+      position: absolute;
+      left: 700px;
+      top: -380px;
+      border-radius: 50px;
+   }
+   .trinity-1,.trinity-2,.trinity-3{
+      background-position: 90px 33px;    
+   }
+   .content-images{
+      padding-left: 10px;
+   }
+   .about-us .about-us-content{
+      justify-content: flex-end;
+      width: 50%;
+      padding: 0 50px;
+   }
+   .features{
+      background-size: 50px;
+      background-position: 100px 300px;
+   }
+   .navbar-toggler-show{
+      display: block
+   }
+   .food-box{
+      width: 33%;
+      padding-bottom: 10px;
+   }
+   .food-img img{
+      max-width: 100%;
+   }
+   .food-menu{
+      justify-content: space-around;
+   }
+
+   .food-box{
+      width: 40%;
+   }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+   .container{
+      width: 624px;
+      margin: 30px auto ;
+   }
+   .contact-list h3{
+      padding: 0 20px;
+      margin: 0 auto;
+   }
+   .network-dicription{
+      padding-left: 20px
+   }
+   .mobile-app img{
+      position: absolute;
+      left: 700px;
+      top: -380px;
+      border-radius: 50px;
+   }
+   .trinity-1,.trinity-2,.trinity-3{
+      background-position: 50px 33px;    
+   }
+   .content-images{
+      padding-left: 10px;
+   }
+   .about-us{
+      display: block;
+   }
+   .about-us-content{
+      width: 100% ;
+      margin: 0 auto;
+      padding: 0 !important;
+      text-align: center;
+   }
+   .about-us-content h2, h4, p{
+      padding:0 ;
+      margin: 0 auto;
+   }
+   
+   .about-us_text h4 {
+      margin: 10px auto;
+      text-align: center;
+      justify-content: center;
+   }
+   .about-us_text{
+      width: 100%;
+   }
+
+   .menu-text{
+      width: 400px;
+      padding-bottom: 100px;
+
+   }
+   .food-menu{
+      justify-content: space-around;
+   }
+
+   .food-box{
+      width: 42%;
+   }
+   .avgust{
+      padding-top: 10px;
+   }
+   .content-message{
+      justify-content: space-around;
+   }
+   .message-input{
+      width: 300  px;
+      margin: 0 auto;
+   }
+   .footer-row-one{
+      display: none;
+   }
+   .footer-content{
+      padding: 0;
+      width: 400px;
+   }
+   .footer-mini{
+      display: block;
+   }
+   .footer-mini ul{
+      padding: 0 !important;
+   }
+   .footer-mini ul li{
+      list-style-type: none;
+   }
+   .footer-mini ul li a{   
+      text-decoration: none;
+   }
+   .footer-mini ul li a img{
+      width: 60px;
+   }
+
+   .food-network {
+      width: 450px;
+   } 
+   form .message-input{
+      width: 450px;
+      height: 45px;
+      background: #aaa;
+      border-radius: 10px 0 0 10px;
+      align-items: center;
+      margin-right: -80px;
+      content: "message";
+   }
+   .food-network{
+      position: relative;
+      width: 100%;
+      background: rgba(251, 241, 231, .7);
+      height: 518px;
+   }
+   .network-dicription {
+      width: 500px;
+      justify-content: center;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      } .network-dicription p{
+         padding: 0;
+         margin: 0;
+      } 
+
+      .avgust{
+         margin-top: 20px;
+      }
+      .contact-list{
+         padding: 0;
+      }
+      form .message-input{
+         width: 450px;
+         height: 50px;
+         background: #aaa;
+         border-radius: 10px 0 0 10px;
+         align-items: center;
+         margin-right: -80px;
+         content: "message";
+      }
+      .contact{
+         margin-bottom: -30px;
+      }
+      form button{
+         height: 50px;
+      }
+      .content-message button{
+         height: 50px;
+      }
+      .footer-mini{
+         padding-top: 200px;
+         justify-content: space-around;
+      }
+      .footer-mini ul{
+         display: flex;
+         text-align: center;
+         margin: 0 auto;
+      }
+      .footer-content{
+         text-align: center;
+         margin: 0 auto
+      }
+      .footer-mini ul li{
+         padding: 10px;
+         text-align: center;
+         margin: 0 auto
+      }
+
+   }
+
+   /* CSS */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  */
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+   header{
+      width: 380px;
+   }
+   .navigation{
+      width: 400px;
+      justify-content: space-between;
+   }
+   .container{
+      min-width: 400px;
+   }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+   *{
+      box-sizing: border-box;
+   }
+   body{
+      width: 400px;
+      text-align: center;
+   }
+   header{
+      width: 400px;
+   }
+   .navigation{
+      width: 400px;
+      justify-content: space-between;
+   }
+   .container{
+      width: 400px;
+   }
+   .header-title{
+      font-size: 35px;
+      width: 400px;
+   }
+   .header-content{
+      flex-direction: column;
+      padding: 0 10px;
+   }
+   .header-content p{
+      width: 300px;
+   }
+   .content-top-text{
+      max-width: 400px;
+   }
+   .quality-food{
+      width: 400px;
+   }
+   .content-trinity{
+      display: block
+   }
+   .about-us{
+      width: 400px;
+      display: block;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 20px;
+   }
+   .content-images img{
+      width: 300px;
+      padding: 0;
+      margin: 0;
+   }
+   .about-us-content{
+      padding: 10px !important;
+      margin: 10px;
+   }
+   .about-us-content h4{
+      width: 300px;
+      text-align: center;
+      justify-content: center;
+   }
+   .about-us-content h2{
+      text-align: center;
+      width: 300px;
+      justify-content: center;
+   }
+   .about-us-content p{
+      text-align: center;
+      width: 300px;
+   }
+   .menu {
+      flex-direction: column;
+      display: block;
+      width: 400px;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-left: 10px;
+   }
+   .menu-information p{
+      width: 400px;
+   }
+   .menu-information h2{
+      width: 400px;
+   }
+   .menu-information p{
+      width: 400px;
+      padding-bottom: 100px;
+   }
+   .food-box{
+      width: 400px;
+   }
+   .food-box p{
+      width: 350px;
+   }
+   .food-img img{
+      width: 400px;
+   }
+   .network-dicription{
+      width: 400px;
+      margin: 0 auto;
+   }
+   .app-iso-link{
+      justify-content: center;
+   }
+   .app-iso-link .apple{
+      padding: 10px 20px;
+   }
+   .apple p{
+      padding: 0;
+      margin: 0;
+      font-size: 10px;
+   }
+
+   .app-iso-link .google{
+      padding: 10px 20px;
+   }
+   .google p{
+      padding: 0;
+      margin: 0;
+      font-size: 10px;
+   }
+   .trinity-1,.trinity-2,.trinity-3{
+      background-position: 155px 33px;    
+   }
+   .testimonial{
+      width: 400px;
+   }
+   .testimonial-information{
+      width: 400px;  
+   }
+   .testimonial-information h5{
+      width: 400px;
+   }
+   .testimonial-information h1{
+      width: 400px;
+      text-align: center;
+      justify-content: center;
+   }
+   .testimonial-information p{
+      text-align: center;
+      justify-content: center;
+      width: 400px;
+   }
+   .myslide{
+      width: 400px;
+      padding-bottom: 100px;  
+   }
+   .fade{
+      padding-bottom: 100px;
+   }
+   .img-information{
+      padding-bottom: 100px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .carusel-section h1{
+      width: 100%;
+   }
+   .prev{
+      position: absolute;
+      left: 20px;
+   }
+
+   .next{
+      position: absolute;
+      right: 0px;
+   }
+
+   #contact{
+      width:420px;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+   }
+   .contact > .container{
+      width: 400px;
+   }
+   .contact-list{
+      padding: 0;
+      width: 400px;
+      text-align: center;
+      margin: 0 auto;
+      justify-content: center;
+      text-align: center;
+   }
+   .contact-list h5{
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto
+   }
+   .contact-list h3{
+      width: 350px;
+      padding: 0;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto
+   }
+   form{
+      padding-top: 100px
+   }
+   footer{
+      width: 100%;
+   }
+   form .message-input{
+      width: 250px;
+      height: 45px;
+      background: #aaa;
+      border-radius: 10px 0 0 10px;
+      align-items: center;
+      margin-right: -80px;
+      content: "message";
+   }
+   ::placeholder{
+      padding: 0;
+      margin:0;
+
+
+   }
+   form .send-message{
+      width: 200px;
+      height: 45px;
+      background: #DC780B;
+      border-radius: 0 10px 10px 0;
+      border: none;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 41px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      z-index: 101;
+      transition: all .5s ease-out;
+   }
+   footer{
+      margin: 0;
+      padding: 0;
+      width: 450px;
+   }
+   .footer-row-one{
+      display: none;
+   }
+   .footer-content{
+      padding: 0;
+      width: 400px;
+   }
+   .footer-mini{
+      text-align: center;
+      padding-top: 100px;
+      display: block
+   }
+   .footer-mini ul{
+      align-items: center;
+      display: flex;
+      flex-direction:inherit;
+      justify-content: center;
+   }
+   .footer-mini ul li{
+      list-style-type: none;
+   }
+   .footer-mini ul li a{   
+      text-decoration: none;
+   }
+   .footer-mini ul li a img{
+      width: 50px;
+      height: 50px;
+      margin: 10px
+   }
+
+   .food-network {
+      padding: 0;
+      margin: 0;
+   }
+   .network-dicription {
+      width: 4 00px;
+      padding: 0;
+      margin: 0;
+   }
+   .network-dicription h4{
+      padding: 0;
+      margin: 0;
+   }
+   .network-dicription h3{    
+
+   }
+   .network-dicription ,p{
+   }
+   .footer-content{
+      padding-left: -10px ;
+   }
+   .footer-mini ul{
+      padding: 0  ;
+      justify-content:  center;
+      display: flex;
+      text-align: center;
+      margin: 0 auto;
+   }
+   .footer-content{
+      text-align: center;
+      margin: 0 auto
+   }
+   .footer-mini ul li{     
+      text-align: center;
+      margin: 0 auto
+   }
+
+}

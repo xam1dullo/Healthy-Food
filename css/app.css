@@ -1,0 +1,7 @@
+.header-title,.content-top-text h3, .quality-food h4,.about-us_text h2,.menu-information h2,.food-name-sum h3,.food-name-sum span,.network-dicription h3,.testimonial-information h1,.contact-list h3,.active{
+	font-family: Philosopher,sans-serif;
+}
+.navbar-toggler-menu-mini li a, .navbar-toggler-menu li ,.header-content p,.header-content-btn,.features-text,.link,.quality-food p,.about-us_text h4,.about-us_text p,
+.about-us_text button, .menu-text,.food-name p,.learn-more_link a,.network-dicription  h4,.network-dicription p,.google p,.testimonial-information h5,.testimonial-information p,.testimonial-information h4,.testimonial-information h6,.contact-list h5,::placeholder,.content-message  butto,.footer-row-one li a{
+	font-family: Roboto;
+}
